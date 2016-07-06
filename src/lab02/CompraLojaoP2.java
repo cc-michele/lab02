@@ -2,8 +2,6 @@ package lab02;
 
 import java.util.Scanner;
 
-import org.omg.Messaging.SyncScopeHelper;
-
 public class CompraLojaoP2 {
 
 	public static Scanner input = new Scanner(System.in);
@@ -63,7 +61,7 @@ public class CompraLojaoP2 {
 
 		System.out.print("Digite o novo preco: ");
 		precoBase = input.nextDouble();
-		System.out.println("Preço base atualizado para: R$ " + precoBase);
+		System.out.println("Seu preço base foi atualizado para: R$ " + precoBase);
 
 	}
 
